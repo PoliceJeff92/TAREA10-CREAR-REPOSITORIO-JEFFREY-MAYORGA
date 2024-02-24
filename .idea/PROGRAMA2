@@ -1,0 +1,26 @@
+def ordenar_fila_ascendente(matriz, fila):
+    fila_a_ordenar = matriz[fila]
+    fila_ordenada = sorted(fila_a_ordenar)
+    matriz[fila] = fila_ordenada
+    return matriz
+
+# Definir la matriz de ejemplo
+matriz_ejemplo = [
+    [3, 2, 1],
+    [6, 5, 4],
+    [9, 8, 7]
+]
+
+# Mostrar matriz original
+print("Matriz original:")
+for fila in matriz_ejemplo:
+    print(fila)
+
+# Ordenar una fila específica (por ejemplo, la primera fila)
+fila_a_ordenar = 0  # Índice de la fila a ordenar
+matriz_ejemplo_ordenada = ordenar_fila_ascendente(matriz_ejemplo, fila_a_ordenar)
+
+# Mostrar matriz con la fila ordenada
+print("\nMatriz con la primera fila ordenada en orden ascendente:")
+for fila in matriz_ejemplo_ordenada:
+    print(fila)
