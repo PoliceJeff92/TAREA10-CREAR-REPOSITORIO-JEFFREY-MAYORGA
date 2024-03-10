@@ -124,3 +124,50 @@ for i, ciudad in enumerate(temperaturas, start=1):
     print(f"Promedio de temperaturas para Ciudad {i}:")
     for j, semana in enumerate(ciudad, start=1):
         suma = sum
+
+    def calcular_temperatura_promedio(ciudades, semanas, temperaturas):
+        """
+        Calcula la temperatura promedio de una ciudad durante un período de tiempo.
+
+        Parámetros:
+          ciudades: Una lista con los nombres de las ciudades.
+          semanas: Una lista con los números de las semanas.
+          temperaturas: Un diccionario que mapea cada ciudad a una lista de listas de temperaturas.
+            Las listas internas corresponden a las semanas y las temperaturas dentro de cada lista
+            corresponden a los días de la semana.
+
+        Retorno:
+          Un diccionario que mapea cada ciudad a un diccionario que mapea cada semana a la
+          temperatura promedio para esa semana.
+        """
+
+        promedios = {}
+        for ciudad in ciudades:
+            promedios[ciudad] = {}
+            for semana in semanas:
+                temperaturas_semana = temperaturas[ciudad][semana - 1]
+                promedio_semana = sum(temperaturas_semana) / len(temperaturas_semana)
+                promedios[ciudad][semana] = promedio_semana
+
+        return promedios
+
+
+    # Ejemplo de uso
+    ciudades = ["Guayaquil", "Quito", "Cuenca"]
+    semanas = list(range(1, 5))
+    temperaturas = {
+        "Guayaquil": [[25, 26, 27, 28, 29], [28, 29, 30, 31, 32], [30, 31, 32, 33, 34], [32, 33, 34, 35, 36]],
+        "Quito": [[22, 23, 24, 25, 26], [25, 26, 27, 28, 29], [27, 28, 29, 30, 31], [29, 30, 31, 32, 33]],
+        "Cuenca": [[20, 21, 22, 23, 24], [23, 24, 25, 26, 27], [25, 26, 27, 28, 29], [27, 28, 29, 30, 31]],
+    }
+
+    promedios_semanales = calcular_temperatura_promedio(ciudades, semanas, temperaturas)
+
+    # Imprimir los resultados
+    for ciudad, semanas_promedios in promedios_semanales.items():
+        print(f"Ciudad: {ciudad}")
+        for semana, promedio in semanas_promedios.items():
+            print(f"Semana {semana}: {promedio:.2f}°C")
+        print()
+
+git commit and push

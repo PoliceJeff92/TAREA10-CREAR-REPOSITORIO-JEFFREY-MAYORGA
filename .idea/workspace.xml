@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e647325-70bf-45fb-a137-ac76d69e6093" name="Changes" comment="Tarea: Iteración de arreglos multidimensionales con bucles anidados&#10;&#10;    Crear una matriz 3D que represente los datos de temperaturas diarias en varias ciudades. En una dimensión, puedes tener diferentes ciudades, en otra dimensión, días de la semana (Lunes, Martes, Miércoles, etc.), y en la tercera dimensión, semanas.&#10;    Dentro de cada celda de la matriz, puedes almacenar las temperaturas diarias para una ciudad en un día específico de una semana determinada.&#10;    Utilizar bucles anidados para calcular el promedio de temperaturas para una ciudad por cada una de las semanas.&#10;    Mostrar el promedio de temperaturas para cada ciudad y semana en la pantalla." />
+    <list default="true" id="3e647325-70bf-45fb-a137-ac76d69e6093" name="Changes" comment="Tarea: Iteración de arreglos multidimensionales con bucles anidados&#10;&#10;    Crear una matriz 3D que represente los datos de temperaturas diarias en varias ciudades. En una dimensión, puedes tener diferentes ciudades, en otra dimensión, días de la semana (Lunes, Martes, Miércoles, etc.), y en la tercera dimensión, semanas.&#10;    Dentro de cada celda de la matriz, puedes almacenar las temperaturas diarias para una ciudad en un día específico de una semana determinada.&#10;    Utilizar bucles anidados para calcular el promedio de temperaturas para una ciudad por cada una de las semanas.&#10;    Mostrar el promedio de temperaturas para cada ciudad y semana en la pantalla.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <list id="73048069-6d76-4217-9e5b-f240f9a30d04" name="Desarrollo de Función para Calcular Temperaturas Promedio en Python" comment="    Desarrolla una función en Python que calcule la temperatura promedio de una ciudad durante un período de tiempo. La función debe ser capaz de manejar datos de temperaturas de múltiples ciudades y semanas.&#10;&#10;    Utiliza como base el ejemplo anterior, donde tenías datos de 3 ciudades durante 4 semanas.&#10;&#10;    Tu función debe recibir estos datos como parámetros y calcular la temperatura promedio de cada ciudad.">
+      <change beforePath="$PROJECT_DIR$/TAREA 12/Arreglos iteracion bucles anidados.py" beforeDir="false" afterPath="$PROJECT_DIR$/TAREA 12/Arreglos iteracion bucles anidados.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +39,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.Arreglos iteracion bucles anidados.executor": "Run",
+    "Python.Desarrollo de Función para Calcular Temperaturas Promedio en Python.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -41,7 +47,7 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="Arreglos iteracion bucles anidados" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+    <configuration name="Desarrollo de Función para Calcular Temperaturas Promedio en Python" type="PythonConfigurationType" factoryName="Python">
       <module name="TAREA10-CREAR-REPOSITORIO-JEFFREY-MAYORGA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,6 +81,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3e647325-70bf-45fb-a137-ac76d69e6093" name="Changes" comment="" />
+      <changelist id="73048069-6d76-4217-9e5b-f240f9a30d04" name="Desarrollo de Función para Calcular Temperaturas Promedio en Python" comment="    Desarrolla una función en Python que calcule la temperatura promedio de una ciudad durante un período de tiempo. La función debe ser capaz de manejar datos de temperaturas de múltiples ciudades y semanas.&#10;&#10;    Utiliza como base el ejemplo anterior, donde tenías datos de 3 ciudades durante 4 semanas.&#10;&#10;    Tu función debe recibir estos datos como parámetros y calcular la temperatura promedio de cada ciudad." />
       <created>1708761909931</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
