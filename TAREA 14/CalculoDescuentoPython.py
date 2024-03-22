@@ -22,7 +22,7 @@ descuento_2 = calcular_descuento(monto_compra_2, porcentaje_descuento_2)
 
 # Salida de resultados
 print(f"Monto compra 1: {monto_compra_1}")
-print(f"Descuento 1 ({porcentaje_descuento}%): {descuento_1}")
+print(f"Descuento 1 ({descuento_1}%): {descuento_1}")
 print(f"Monto final a pagar 1: {monto_compra_1 - descuento_1}")
 
 print(f"\nMonto compra 2: {monto_compra_2}")

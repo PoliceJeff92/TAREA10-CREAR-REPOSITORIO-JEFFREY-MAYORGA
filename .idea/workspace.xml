@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e647325-70bf-45fb-a137-ac76d69e6093" name="Changes" comment="Tarea: Iteración de arreglos multidimensionales con bucles anidados&#10;&#10;    Crear una matriz 3D que represente los datos de temperaturas diarias en varias ciudades. En una dimensión, puedes tener diferentes ciudades, en otra dimensión, días de la semana (Lunes, Martes, Miércoles, etc.), y en la tercera dimensión, semanas.&#10;    Dentro de cada celda de la matriz, puedes almacenar las temperaturas diarias para una ciudad en un día específico de una semana determinada.&#10;    Utilizar bucles anidados para calcular el promedio de temperaturas para una ciudad por cada una de las semanas.&#10;    Mostrar el promedio de temperaturas para cada ciudad y semana en la pantalla.">
-      <change afterPath="$PROJECT_DIR$/TAREA 14/CalculoDescuentoPython.py" afterDir="false" />
+    <list default="true" id="3e647325-70bf-45fb-a137-ac76d69e6093" name="Changes" comment="Tarea de Programación: Cálculo de Descuento en Compras&#10;&#10;Objetivo:&#10;&#10;El objetivo de esta tarea es practicar el uso de funciones en Python, incluyendo parámetros, valores predeterminados y retorno de valores. Deberás crear un programa que calcule el descuento en compras en función del monto total de la compra y mostrar el monto final a pagar.&#10;&#10;    Creación de la Función:&#10;&#10;    Crea una función llamada calcular_descuento que tome dos parámetros: el monto total de la compra y un valor predeterminado para el porcentaje de descuento (por ejemplo, 10% por defecto).&#10;&#10;    La función debe calcular el descuento aplicando el porcentaje al monto total de la compra.&#10;&#10;    La función debe devolver el monto del descuento calculado.&#10;&#10;Llamada a la Función:&#10;&#10;    Llama a la función calcular_descuento al menos dos veces desde el programa principal.&#10;    En una llamada, proporciona el monto total de la compra y, en la otra, proporciona tanto el monto total de la compra como el porcentaje de descuento.&#10;&#10;Salida de Resultados:&#10;&#10;    Muestra los resultados de las llamadas a la función, incluyendo el monto del descuento y el monto final a pagar después del descuento.">
+      <change afterPath="$PROJECT_DIR$/TAREA 15/Diccionario.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TAREA10-CREAR-REPOSITORIO-JEFFREY-MAYORGA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TAREA10-CREAR-REPOSITORIO-JEFFREY-MAYORGA.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TAREA 12/Arreglos iteracion bucles anidados.py" beforeDir="false" afterPath="$PROJECT_DIR$/TAREA 12/Arreglos iteracion bucles anidados.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TAREA 14/CalculoDescuentoPython.py" beforeDir="false" afterPath="$PROJECT_DIR$/TAREA 14/CalculoDescuentoPython.py" afterDir="false" />
     </list>
     <list id="73048069-6d76-4217-9e5b-f240f9a30d04" name="Desarrollo de Función para Calcular Temperaturas Promedio en Python" comment="    Desarrolla una función en Python que calcule la temperatura promedio de una ciudad durante un período de tiempo. La función debe ser capaz de manejar datos de temperaturas de múltiples ciudades y semanas.&#10;&#10;    Utiliza como base el ejemplo anterior, donde tenías datos de 3 ciudades durante 4 semanas.&#10;&#10;    Tu función debe recibir estos datos como parámetros y calcular la temperatura promedio de cada ciudad." />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,14 +44,16 @@
     "Python.Arreglos iteracion bucles anidados.executor": "Run",
     "Python.CalculoDescuentoPython.executor": "Run",
     "Python.Desarrollo de Función para Calcular Temperaturas Promedio en Python.executor": "Run",
+    "Python.Diccionario.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/user/PycharmProjects/TAREA10-CREAR-REPOSITORIO-JEFFREY-MAYORGA/TAREA 12"
+    "last_opened_file_path": "C:/Users/user/PycharmProjects/TAREA10-CREAR-REPOSITORIO-JEFFREY-MAYORGA/TAREA 12",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.CalculoDescuentoPython">
-    <configuration name="CalculoDescuentoPython" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Desarrollo de Función para Calcular Temperaturas Promedio en Python">
+    <configuration name="CalculoDescuentoPython" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="TAREA10-CREAR-REPOSITORIO-JEFFREY-MAYORGA" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,9 +97,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Diccionario" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TAREA10-CREAR-REPOSITORIO-JEFFREY-MAYORGA" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TAREA 15" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TAREA 15/Diccionario.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.CalculoDescuentoPython" />
+        <item itemvalue="Python.Diccionario" />
       </list>
     </recent_temporary>
   </component>
@@ -130,12 +158,21 @@
       <option name="project" value="LOCAL" />
       <updated>1710095298025</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Tarea de Programación: Cálculo de Descuento en Compras&#10;&#10;Objetivo:&#10;&#10;El objetivo de esta tarea es practicar el uso de funciones en Python, incluyendo parámetros, valores predeterminados y retorno de valores. Deberás crear un programa que calcule el descuento en compras en función del monto total de la compra y mostrar el monto final a pagar.&#10;&#10;    Creación de la Función:&#10;&#10;    Crea una función llamada calcular_descuento que tome dos parámetros: el monto total de la compra y un valor predeterminado para el porcentaje de descuento (por ejemplo, 10% por defecto).&#10;&#10;    La función debe calcular el descuento aplicando el porcentaje al monto total de la compra.&#10;&#10;    La función debe devolver el monto del descuento calculado.&#10;&#10;Llamada a la Función:&#10;&#10;    Llama a la función calcular_descuento al menos dos veces desde el programa principal.&#10;    En una llamada, proporciona el monto total de la compra y, en la otra, proporciona tanto el monto total de la compra como el porcentaje de descuento.&#10;&#10;Salida de Resultados:&#10;&#10;    Muestra los resultados de las llamadas a la función, incluyendo el monto del descuento y el monto final a pagar después del descuento.">
+      <option name="closed" value="true" />
+      <created>1710624618863</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1710624618863</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tarea: Iteración de arreglos multidimensionales con bucles anidados&#10;&#10;    Crear una matriz 3D que represente los datos de temperaturas diarias en varias ciudades. En una dimensión, puedes tener diferentes ciudades, en otra dimensión, días de la semana (Lunes, Martes, Miércoles, etc.), y en la tercera dimensión, semanas.&#10;    Dentro de cada celda de la matriz, puedes almacenar las temperaturas diarias para una ciudad en un día específico de una semana determinada.&#10;    Utilizar bucles anidados para calcular el promedio de temperaturas para una ciudad por cada una de las semanas.&#10;    Mostrar el promedio de temperaturas para cada ciudad y semana en la pantalla." />
     <MESSAGE value="    Desarrolla una función en Python que calcule la temperatura promedio de una ciudad durante un período de tiempo. La función debe ser capaz de manejar datos de temperaturas de múltiples ciudades y semanas.&#10;&#10;    Utiliza como base el ejemplo anterior, donde tenías datos de 3 ciudades durante 4 semanas.&#10;&#10;    Tu función debe recibir estos datos como parámetros y calcular la temperatura promedio de cada ciudad." />
-    <option name="LAST_COMMIT_MESSAGE" value="    Desarrolla una función en Python que calcule la temperatura promedio de una ciudad durante un período de tiempo. La función debe ser capaz de manejar datos de temperaturas de múltiples ciudades y semanas.&#10;&#10;    Utiliza como base el ejemplo anterior, donde tenías datos de 3 ciudades durante 4 semanas.&#10;&#10;    Tu función debe recibir estos datos como parámetros y calcular la temperatura promedio de cada ciudad." />
+    <MESSAGE value="Tarea de Programación: Cálculo de Descuento en Compras&#10;&#10;Objetivo:&#10;&#10;El objetivo de esta tarea es practicar el uso de funciones en Python, incluyendo parámetros, valores predeterminados y retorno de valores. Deberás crear un programa que calcule el descuento en compras en función del monto total de la compra y mostrar el monto final a pagar.&#10;&#10;    Creación de la Función:&#10;&#10;    Crea una función llamada calcular_descuento que tome dos parámetros: el monto total de la compra y un valor predeterminado para el porcentaje de descuento (por ejemplo, 10% por defecto).&#10;&#10;    La función debe calcular el descuento aplicando el porcentaje al monto total de la compra.&#10;&#10;    La función debe devolver el monto del descuento calculado.&#10;&#10;Llamada a la Función:&#10;&#10;    Llama a la función calcular_descuento al menos dos veces desde el programa principal.&#10;    En una llamada, proporciona el monto total de la compra y, en la otra, proporciona tanto el monto total de la compra como el porcentaje de descuento.&#10;&#10;Salida de Resultados:&#10;&#10;    Muestra los resultados de las llamadas a la función, incluyendo el monto del descuento y el monto final a pagar después del descuento." />
+    <option name="LAST_COMMIT_MESSAGE" value="Tarea de Programación: Cálculo de Descuento en Compras&#10;&#10;Objetivo:&#10;&#10;El objetivo de esta tarea es practicar el uso de funciones en Python, incluyendo parámetros, valores predeterminados y retorno de valores. Deberás crear un programa que calcule el descuento en compras en función del monto total de la compra y mostrar el monto final a pagar.&#10;&#10;    Creación de la Función:&#10;&#10;    Crea una función llamada calcular_descuento que tome dos parámetros: el monto total de la compra y un valor predeterminado para el porcentaje de descuento (por ejemplo, 10% por defecto).&#10;&#10;    La función debe calcular el descuento aplicando el porcentaje al monto total de la compra.&#10;&#10;    La función debe devolver el monto del descuento calculado.&#10;&#10;Llamada a la Función:&#10;&#10;    Llama a la función calcular_descuento al menos dos veces desde el programa principal.&#10;    En una llamada, proporciona el monto total de la compra y, en la otra, proporciona tanto el monto total de la compra como el porcentaje de descuento.&#10;&#10;Salida de Resultados:&#10;&#10;    Muestra los resultados de las llamadas a la función, incluyendo el monto del descuento y el monto final a pagar después del descuento." />
   </component>
 </project>

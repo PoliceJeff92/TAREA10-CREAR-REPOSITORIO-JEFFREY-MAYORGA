@@ -170,4 +170,4 @@ for i, ciudad in enumerate(temperaturas, start=1):
             print(f"Semana {semana}: {promedio:.2f}°C")
         print()
 
-git commit and push
+
